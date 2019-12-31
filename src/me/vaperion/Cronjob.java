@@ -24,7 +24,7 @@ public class Cronjob {
         try {
             options = parser.parse(args);
         } catch (OptionException ex) {
-            System.out.println("csicskakoponya --url <url>");
+            System.out.println("program --url <url>");
             System.out.println(ex.getMessage());
             System.exit(1);
             return;
